@@ -22,7 +22,6 @@ public class ShopServicePRO implements ShopService {
 
     private double discount;
 
-
     public ShopServicePRO(@Value("${shop-service-pro.vat}") double vat, @Value("${shop-service-pro.discount}") double discount) {
         this.vat = vat;
         this.discount = discount;
